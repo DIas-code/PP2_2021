@@ -1,6 +1,7 @@
-n=list(map(int,input().split()))
-a=1001
-for i in range(0, len(n)):
-    if n[i]>0 and a>n[i]:
-        a=n[i]
-print(a)
+n=int(input())
+a=list(map(int,input().split()))
+b=[]
+for i in a:
+    if i%2==0:
+        b.append(i)
+print(*b)

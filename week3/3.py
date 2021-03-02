@@ -1,2 +1,7 @@
-n=list(map(int,input().split()))
-m=list(map(int,input().split()))
+n=int(input())
+a=list(map(int,input().split()))
+b=0
+for i in a:
+    if i>0:
+        b+=1
+print(b)

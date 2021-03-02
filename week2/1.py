@@ -1,9 +1,3 @@
-class Solution(object):
-    def defangIPaddr(self, address):
-        """
-        :type address: str
-        :rtype: str
-        """
-        address=address.replace(".","[.]")
-        return(address)
-              
+a=input().split()
+for i in range(0, len(a), 2 ):
+    print(a[i])
