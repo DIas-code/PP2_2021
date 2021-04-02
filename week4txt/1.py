@@ -1,5 +1,6 @@
 import re
-file = open('text.txt',encoding="utf8")
+
+file = open('raw.txt',encoding="utf8")
 text = file.read()
 
 BINPattern = r"\nБИН.*(?P<BIN>\b[0-9]+)"
