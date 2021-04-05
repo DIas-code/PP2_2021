@@ -1,7 +1,4 @@
-def sum(listt):
-    s=0
-    for i in listt:
-        s+=i
-    return s
-listt=list(map(int,input().split()))
-print(sum(listt))
+import math
+for i in range(180,540):
+    y = math.sin(i*math.pi/180)
+    print(y)
